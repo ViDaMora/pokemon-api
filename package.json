@@ -1,0 +1,23 @@
+{
+  "name": "heroku-pokemon-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" :"node index.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install "
+  },
+  "engines": {
+    "node": "12.16.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.0",
+    "mongoose": "^5.13.2",
+    "nodemon": "^2.0.12"
+  }
+}
